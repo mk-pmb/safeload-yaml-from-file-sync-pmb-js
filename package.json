@@ -16,11 +16,13 @@
 
   "private": false, "license": "ISC",
 
-  "main": "lyff.mjs",
-  "scripts": { "test": "elp && nodejs test.js" },
-  "eslintConfig": { "extends": "nodejs-pmb" },
+  "main": "lyff.js",
+  "scripts": { "test": "jsl && nodejs test/all.js" },
 
-  "dependencies": {},
+  "dependencies": {
+    "read-resolved-file-sync": "^1.0.1",
+    "safeload-yaml-pmb": "^4.210519.0"
+  },
   "devDependencies": {
   },
 

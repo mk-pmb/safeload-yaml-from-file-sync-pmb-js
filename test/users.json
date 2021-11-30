@@ -1,0 +1,7 @@
+﻿{ "alice":  { "role": "author", "icon": "ant" },
+  "bob":    { "role": "author", "icon": "bear" },
+  "%author": {
+    "acl": { "write": true },
+    "preChecks": ["sanitizeHtmlTags", "externalUrls"]
+  }
+}
