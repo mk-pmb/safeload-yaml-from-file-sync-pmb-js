@@ -1,0 +1,29 @@
+{ "name": "safeload-yaml-from-file-sync-pmb",
+  "version": "0.1.0",
+  "description": "Legacy code compatibility cancer. Avoid if you can.",
+  "keywords": [ "legacy" ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/safeload-yaml-from-file-sync-pmb-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/safeload-yaml-from-file-sync-pmb-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/safeload-yaml-from-file-sync-pmb-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "main": "lyff.mjs",
+  "scripts": { "test": "elp && nodejs test.js" },
+  "eslintConfig": { "extends": "nodejs-pmb" },
+
+  "dependencies": {},
+  "devDependencies": {
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
