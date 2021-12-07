@@ -13,4 +13,8 @@ function lyff(path, rqr) {
 
 lyff.default = lyff;
 
+lyff.r = function preConfig(rqr) {
+  return function lyfrf(path) { return lyff(path, rqr); };
+};
+
 module.exports = lyff;

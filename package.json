@@ -1,5 +1,5 @@
 { "name": "safeload-yaml-from-file-sync-pmb",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Legacy code compatibility cancer. Avoid if you can.",
   "keywords": [ "legacy" ],
 
